@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #e7e7e7;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  overflow-y: scroll;
+  background-color: whitesmoke;
+}
+
+/* header start*/
+
+.hcontainer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px 0 16px 0;
+}
+
+header {
+  height: 100px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header nav .logo a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 30px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+nav ul li a:hover {
+  color: #59b7a5;
+}
+
+nav .menu {
+  display: flex;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.menu .menu-button {
+  border-color: #e7e7e7;
+  color: black;
+  border: 1px solid #59b7a5;
+  padding: 6px 12px 6px 12px;
+  border-radius: 3px;
+  font-size: 14px;
+  transition: 400ms all;
+  cursor: pointer;
+}
+
+nav .menu .menu-button:hover {
+  background-color: #59b7a5;
+  color: white;
+}
+
+/* header end */
+
+.container {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .content {
+  text-align: center;
+}
+
+.container .content h3 {
+  font-size: 30px;
+  color: #333;
+}
+
+.container .content h3 span {
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+.container .content h1 {
+  font-size: 50px;
+  color: #333;
+}
+
+.container .content h1 span {
+  color: crimson;
+}
+
+.container .content p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.container .content .btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  background: #333;
+  color: #fff;
+  margin: 0 5px;
+  text-transform: capitalize;
+}
+
+.container .content .btn:hover {
+  background: #59b7a5;
+}
+
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+  background: #eee;
+}
+
+.form-container form {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  text-align: center;
+  width: 500px;
+}
+
+.form-container form h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-container form input,
+.form-container form select {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 17px;
+  margin: 8px 0;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.form-container form select option {
+  background: #fff;
+}
+
+.form-container form .form-btn {
+  background: #fbd0d9;
+  color: crimson;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+  background: crimson;
+  color: #fff;
+}
+
+.form-container form p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.form-container form p a {
+  color: crimson;
+}
+
+.form-container form .error-msg {
+  margin: 10px 0;
+  display: block;
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+}
