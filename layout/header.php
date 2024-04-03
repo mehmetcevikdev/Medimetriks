@@ -14,7 +14,7 @@
       </div>
       <div class="menu">
         <ul>
-          <li><a href="anasayfa.php">Hesaplamalar</a></li>
+          <li><a href="index.php">Hesaplamalar</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
         <a href="login-user/user_page.php">

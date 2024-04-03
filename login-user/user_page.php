@@ -36,7 +36,7 @@ if (!isset($_SESSION['user_name'])) {
          </div>
          <div class="menu">
             <ul>
-               <li><a href="../anasayfa.php">Hesaplamalar</a></li>
+               <li><a href="../index.php">Hesaplamalar</a></li>
                <li><a href="../contact.php">Contact</a></li>
             </ul>
             <a href="user_page.php">
@@ -59,7 +59,7 @@ if (!isset($_SESSION['user_name'])) {
                <?php echo $_SESSION['user_name'] ?>
             </span></h1>
          <p>Buradan gideceğin sayfayı secebilirsin.</p>
-         <a href="../anasayfa.php" class="btn">hesaplamalar</a>
+         <a href="../index.php" class="btn">hesaplamalar</a>
          <a href="../contact.php" class="btn">contact</a>
          <a href="logout.php" class="btn">logout</a>
       </div>

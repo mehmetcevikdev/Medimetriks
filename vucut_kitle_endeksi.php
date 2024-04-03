@@ -5,7 +5,7 @@
 session_start();
 
 if (!isset($_SESSION['user_name'])) {
-  header('location:login_form.php');
+  header('location:login-user/login_form.php');
 }
 
 ?>
@@ -65,7 +65,7 @@ if (!isset($_SESSION['user_name'])) {
                     $servername = "localhost"; // Veritabanı sunucu adı
                     $username = "root"; // Veritabanı kullanıcı adı
                     $password = ""; // Veritabanı şifre
-                    $dbname = "hesaplamalar"; // Kullanılacak veritabanı adı
+                    $dbname = "medimetriks"; // Kullanılacak veritabanı adı
                 
                     try {
                       // Veritabanına bağlan

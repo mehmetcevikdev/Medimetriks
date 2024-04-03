@@ -11,7 +11,7 @@
     <div class="container">
       <div class="newsLetterContainer">
         <div class="title logo">
-          <a href="anasayfa.php">Medimetriks</a>
+          <a href="index.php">Medimetriks</a>
         </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos
@@ -23,7 +23,7 @@
         <div class="title">useful links</div>
         <ul>
           <li>
-            <a href="anasayfa.php">Hesaplamalar</a>
+            <a href="index.php">Hesaplamalar</a>
           </li>
           <li>
             <a href="contact.php">Contact</a>

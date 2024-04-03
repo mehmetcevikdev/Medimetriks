@@ -5,7 +5,7 @@
 session_start();
 
 if (!isset($_SESSION['user_name'])) {
-    header('location:login_form.php');
+  header('location:login-user/login_form.php');
 }
 
 ?>
@@ -144,7 +144,7 @@ if (!isset($_SESSION['user_name'])) {
                   echo "RH Faktörü: " . $cocuk_r;
 
                   try {
-                    $dbh = new PDO('mysql:host=localhost;dbname=hesaplamalar', 'root', '');
+                    $dbh = new PDO('mysql:host=localhost;dbname=medimetriks', 'root', '');
 
                     $sql = "INSERT INTO kan_grubu (name, anne_kan, baba_kan, anne_rh, baba_rh, cocuk_rh) 
                             VALUES ('$name', :anne_k, :baba_k, :anne_r, :baba_r, :cocuk_r)";

@@ -5,8 +5,8 @@
 session_start();
 
 if (!isset($_SESSION['user_name'])) {
-    header('location:login_form.php');
-}
+    header('location:login-user/login_form.php');
+  }
 
 ?>
 
@@ -114,7 +114,7 @@ if (!isset($_SESSION['user_name'])) {
                                     $servername = "localhost";
                                     $username = "root";
                                     $password = "";
-                                    $dbname = "hesaplamalar";
+                                    $dbname = "medimetriks";
 
                                     // Veritabanına bağlanma
                                     $conn = new mysqli($servername, $username, $password, $dbname);
